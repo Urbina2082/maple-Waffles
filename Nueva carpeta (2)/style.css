@@ -1,0 +1,426 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fcf9ea;
+}
+
+.menu img{
+  width: 2rem;
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 1.5rem 5rem;
+}
+
+
+
+.menu nav ul {
+  display: flex;
+  list-style: none;
+  align-content: center;
+}
+
+.menu nav {
+  align-content: center;
+}
+
+.menu nav ul li {
+  margin: auto 1rem;
+
+}
+
+.menu nav ul a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.vaso {
+  width: 30%;
+}
+
+/* ----------------------------------------- */
+
+main {
+  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply; */
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 430%;
+}
+
+.junt {
+  width: 50%;
+}
+
+.junt button {
+  margin: 2rem 0rem;
+  font-size: 120%;
+  padding: 0.5rem 0.8rem;
+  border-radius: 12px;
+  border-color: #00000000;
+  background: #bb6e13;
+  color: #ffffff;
+}
+
+.junt span {
+  color: #f0c254;
+}
+
+.baner {
+  margin: 4rem 0rem 1rem;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.baner img {
+  width: 25rem;
+  height: 60vh;
+  border-radius: 50%;
+}
+
+.parrafo_one {
+  text-align: left;
+}
+
+.intro {
+  font-size: 130%;
+  padding: 2rem;
+  width: 25%;
+  background: #00000000;
+  border-radius: 12px;
+  margin: 3rem auto;
+}
+
+.nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nosotros img {
+  width: 25%;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.has h4 {
+  font-size: 230%;
+  text-align: center;
+  margin: 2rem 0rem 3rem;
+  color: #bb6e13;
+}
+.nosots {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: linear-gradient(to right, #bb6e13 1%, #faeec7 1%);
+  color: #3e1a0a;
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.has {
+  padding: 8rem 0rem 10rem;
+}
+
+.nosots h3 {
+  font-size: 170%;
+  margin: 0rem 0rem 2rem;
+}
+
+.nosots .el {
+  width: 35rem;
+}
+
+.nosots p {
+  width: 100%;
+  margin: auto;
+}
+
+.nosots img {
+  width: 12rem;
+}
+
+.menu_mapple {
+  padding: 0rem 3rem;
+}
+
+.Horarios {
+  width: 25rem;
+  font-size: 130%;
+  /* background-color: #f5dd93;
+  backdrop-filter: Blur(12%); */
+  text-align: center;
+  color: #3e1a0a;
+  padding: 1rem 2rem;
+  border-radius: 24px;
+}
+
+.colors {
+  background: #ffffff00;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 24px;
+  justify-content: center;
+  color: #bb6e13;
+}
+
+.colorses {
+  padding: 4rem 4rem;
+  margin-bottom: 5rem;
+}
+
+.Ubicacion {
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.Ubicacion h3 {
+  text-align: center;
+  font-size: 190%;
+  margin: 1rem;
+  color: #bb6e13;
+}
+.Ubicacion p {
+  margin: auto;
+  width: 60%;
+}
+
+.misMenus {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0rem 4rem;
+}
+
+.misMenus div {
+  width: 20rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+.al {
+  margin: auto;
+  padding: 1rem 0rem;
+  width: 13rem;
+  background: #bb6e13;
+  border-radius: 12px;
+}
+
+.misMenus h4 {
+  text-align: center;
+  font-size: 140%;
+  margin: 0rem 0rem 2rem;
+  color: #000000;
+}
+
+.meni h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+.meni {
+  padding-top: 4rem;
+  color: #000000;
+}
+
+.misMenus h4 span {
+  color: #d99019;
+}
+
+.meni p {
+  width: 60%;
+  color: #7c3e17;
+  text-align: center;
+  margin: 2rem auto 4rem auto;
+}
+
+.misMenus ul li {
+  margin: 1rem;
+}
+
+footer {
+  background: #964e12;
+  text-align: center;
+  padding: 1rem 0rem;
+  color: #faeec7;
+}
+
+footer h3 {
+  margin: 1rem 0rem;
+}
+
+footer img {
+  width: 36px;
+  filter: invert();
+  margin: 0rem 1rem;
+}
+
+.redes {
+  display: flex;
+  margin: 1rem 2rem;
+  justify-content: center;
+}
+
+#red2 {
+  border-radius: 50px;
+}
+
+.junt_2 p {
+  width: 30rem;
+  margin: 0rem 2rem;
+}
+
+.junt_2 {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+hr {
+  margin: 1rem 0rem;
+}
+
+.parf1 {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1018px) {
+  .baner h2 {
+    font-size: 370%;
+  }
+
+  .baner img {
+    width: 20rem;
+    height: 50vh;
+  }
+  
+}
+
+@media only screen and (max-width: 863px) {
+  .baner h2 {
+    font-size: 320%;
+  }
+
+  .baner img {
+    width: 15rem;
+    height: 40vh;
+  }
+
+  .misMenus div {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+.menu img{
+  display:inline;
+  width: 3rem;
+border-radius: 50%;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.nosots p {
+  font-size: 90%;
+}
+
+.meni h3 {
+  font-size: 1.5rem;
+
+}
+
+  h1{
+    font-size: 150%;
+  }
+  .baner h2 {
+    text-align: center;
+    font-size: 220%;
+  }
+
+  .baner {
+    margin-top: 5rem;
+  }
+
+  .junt {
+    width: 90%;
+    text-align: center;
+  }
+
+  .baner img {
+    display: none;
+  }
+  .nosots img {
+    width: 8rem;
+  }
+
+  .nosots p {
+    font-size: 100%;
+  }
+  .meni p {
+    width: 80%;
+  }
+
+  .menu {
+    justify-content: center;
+    padding: 0rem;
+    margin: 1rem auto;
+  }
+  .menu nav {
+    display: none;
+  }
+
+  .misMenus {
+    padding: 0rem 0.3rem;
+  }
+
+  .misMenus h4 {
+    
+    font-size: 120%;}
+
+    .misMenus ul li {
+      font-size: 100%;
+  }
+
+.Ubicacion p{
+  width: 80%;
+}
+
+.Horarios {
+  width: 35rem;
+padding: 1rem 0rem;
+}
+
+
+
+
+}
